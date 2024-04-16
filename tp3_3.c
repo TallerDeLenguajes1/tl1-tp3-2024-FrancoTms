@@ -27,7 +27,7 @@ int main()
     }
     
     //Liberar memoria
-    for (i = 0; i < MAX_NOMBRES; i++)
+    for (i = 0; i < CANT_NOMBRES; i++)
     {
         free(nombres[i]);
     }
